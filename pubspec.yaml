@@ -61,7 +61,14 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets\imgs\desktop-wallpaper-neutral-minimalist.jpg
-  #   - images/a_dot_ham.jpeg
+    - assets\imgs\capitaes.webp
+    - assets\imgs\peDeLaranja.jpg
+    - assets\imgs\quarto.jpg
+    - assets\imgs\helena.jpg
+    - assets\imgs\capitaes2.jpg
+    - assets\imgs\quarto2.jpeg
+    - assets\imgs\meupe.webp
+    - assets\imgs\helena2.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

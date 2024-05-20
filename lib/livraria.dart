@@ -37,10 +37,9 @@ class _PrincipalState extends State<Principal> {
             fit: BoxFit.contain,
           ),
         ),
-
+  
         child: Column(
           children: [
-
             SizedBox(height: 30),
 
             Row(mainAxisAlignment: MainAxisAlignment.center, children: [

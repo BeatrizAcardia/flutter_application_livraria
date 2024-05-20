@@ -23,10 +23,17 @@ class _LivroState extends State<Livro> {
         child: Column(children: [
         SizedBox(height: 250, width: 350, child: Image.asset('${widget.url}'),),
          Divider(thickness: 1, color: Colors.brown,),
-        Text(widget.sinopse, textAlign: TextAlign.justify,),
+        Text(widget.sinopse, textAlign: TextAlign.justify, style: TextStyle(fontFamily: 'Sedan_SC'),),
+        
+        SizedBox(height: 30),
+        
         ElevatedButton(onPressed: () {
           Navigator.pop(context);
-        }, child: Text("Voltar")),
+        },
+        style: ElevatedButton.styleFrom(
+          backgroundColor: Colors.blueGrey,
+        ),
+         child: Text("Voltar", style: TextStyle(color: Colors.white, fontFamily: 'Sedan_SC'),)),
       ],),),
     );
   }
